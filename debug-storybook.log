@@ -1,0 +1,37 @@
+[15:49:32.146] [INFO] storybook v10.6.0
+[15:49:33.507] [DEBUG] Getting package.json info for D:/Mes Projets/design-system/package.json...
+[15:49:33.530] [WARN] Could not resolve addon "@storybook/addon-essentials", skipping. Is it installed?
+[15:49:33.538] [WARN] Could not resolve addon "@storybook/addon-a11y", skipping. Is it installed?
+[15:49:33.540] [ERROR] [38;2;241;97;97mSB_CORE-SERVER_0002 (CriticalPresetLoadError): Storybook failed to load the following preset: @storybook/react-vite/preset.
+
+Please check whether your setup is correct, the Storybook dependencies (and their peer dependencies) are installed correctly and there are no package version clashes.
+
+If you believe this is a bug, please open an issue on Github.
+
+Error [ERR_MODULE_NOT_FOUND]: Cannot find package '@storybook/react-vite' imported from .\node_modules\storybook\dist\_node-chunks\chunk-5G6TGQDE.js
+    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:331:9)
+    at packageResolve (node:internal/modules/esm/resolve:784:25)
+    at moduleResolve (node:internal/modules/esm/resolve:873:18)
+    at defaultResolve (node:internal/modules/esm/resolve:1006:11)
+    at nextResolve (node:internal/modules/esm/hooks:769:28)
+    at AsyncLoaderHooksOnLoaderHookWorker.resolve (node:internal/modules/esm/hooks:265:30)
+    at MessagePort.handleMessage (node:internal/modules/esm/worker:251:24)
+    at [nodejs.internal.kHybridDispatch] (node:internal/event_target:848:20)
+    at MessagePort.<anonymous> (node:internal/per_context/messageport:23:28)
+
+More info: 
+[39m
+    at loadPreset (file:///D:/Mes%20Projets/design-system/node_modules/storybook/dist/_node-chunks/chunk-IQHYYTFR.js:13257:13)
+    at async Promise.all (index 0)
+    at async loadPresets (file:///D:/Mes%20Projets/design-system/node_modules/storybook/dist/_node-chunks/chunk-IQHYYTFR.js:13266:73)
+    at async getPresets (file:///D:/Mes%20Projets/design-system/node_modules/storybook/dist/_node-chunks/chunk-IQHYYTFR.js:13297:23)
+    at async buildDevStandalone (file:///D:/Mes%20Projets/design-system/node_modules/storybook/dist/core-server/index.js:9254:52)
+    at async withTelemetry (file:///D:/Mes%20Projets/design-system/node_modules/storybook/dist/_node-chunks/chunk-FTP3QZ7O.js:142:12)
+    at async dev (file:///D:/Mes%20Projets/design-system/node_modules/storybook/dist/bin/core.js:4906:3)
+    at async _Command.<anonymous> (file:///D:/Mes%20Projets/design-system/node_modules/storybook/dist/bin/core.js:5014:3)
+[15:49:33.543] [WARN] Broken build, fix the error above.
+You may need to refresh the browser.
+[15:49:33.546] [WARN] Could not resolve addon "@storybook/addon-essentials", skipping. Is it installed?
+[15:49:33.546] [WARN] Could not resolve addon "@storybook/addon-a11y", skipping. Is it installed?
+[15:49:51.569] [PROMPT] Would you like to send anonymous crash reports to improve Storybook and fix bugs faster? {"choice":false}
+[15:49:51.570] [INFO] Storybook collects completely anonymous usage telemetry. We use it to shape Storybook's roadmap and prioritize features. You can learn more, including how to opt out, at https://storybook.js.org/telemetry

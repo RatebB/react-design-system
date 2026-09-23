@@ -75,7 +75,7 @@ Visual variants are centralized and Tailwind utility classes are merged with `ta
 ## Example
 
 ```tsx
-import { Button, Card, Input } from "@rateb/react-design-system";
+import { Button, Card, Input } from "@.../react-design-system";
 
 export function LoginForm() {
   return (
