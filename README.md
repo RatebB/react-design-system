@@ -1,6 +1,7 @@
 # React Design System
 
 A reusable and accessible React component library built with **TypeScript, Tailwind CSS, Storybook, Jest and React Testing Library**.
+<img width="2126" height="1213" alt="image" src="https://github.com/user-attachments/assets/1d4c7c63-dcf4-4036-a0a5-23931fb35f28" />
 
 ## Why this project?
 
