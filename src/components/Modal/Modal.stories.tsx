@@ -1,9 +1,19 @@
-import type { Meta, StoryObj } from "@storybook/react-vite";
+import type { Meta, StoryObj } from "@storybook/react";
 import { useState } from "react";
 import { Button } from "../Button/Button";
 import { Modal } from "./Modal";
 
-const meta = { title: "Components/Modal", component: Modal, tags: ["autodocs"] } satisfies Meta<typeof Modal>;
+const meta = {
+  title: "Components/Modal",
+  component: Modal,
+  tags: ["autodocs"],
+  args: {
+    open: false,
+    onOpenChange: () => {},
+    title: "Delete project",
+    children: null,
+  },
+} satisfies Meta<typeof Modal>;
 export default meta;
 type Story = StoryObj<typeof meta>;
 

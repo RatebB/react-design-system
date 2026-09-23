@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react-vite";
+import type { Meta, StoryObj } from "@storybook/react";
 import { Alert } from "./Alert";
 
 const meta = { title: "Components/Alert", component: Alert, tags: ["autodocs"] } satisfies Meta<typeof Alert>;
